@@ -2,7 +2,7 @@ Voici un exemple de **README.md** détaillé pour ton projet, basé sur l’arbo
 
 ---
 
-# 🏛 Admin Dash Naturalization
+# 🏛 Admin Dash 
 
 **Admin Dash Naturalization** est une application front-end développée avec **React** et **Vite**. Elle fournit un dashboard complet pour la gestion des utilisateurs, des trades, et des réflexions, avec une interface modulable et sécurisée.
 
