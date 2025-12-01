@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { CiSettings } from "react-icons/ci";
 import { MdOutlineLogout } from "react-icons/md";
 import { AuthContext } from "../context/AuthContext";
-import { Navigate } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 
 const AdminProfile = () => {
    const handleSettingsClick = () => {
@@ -33,13 +33,13 @@ const AdminProfile = () => {
 
       {/* Action Icons */}
       <div className="flex gap-3">
-        {/* Settings Icon */}
-        <button
+        
+        <Link to = '/profile'
           onClick={handleSettingsClick}
           className="hover:opacity-70 transition-opacity"
         >
           <CiSettings className="text-white w-6 h-6" />
-        </button>
+        </Link>
 
         {/* Logout Icon */}
         <button
