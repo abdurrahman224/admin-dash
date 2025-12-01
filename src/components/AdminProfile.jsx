@@ -35,7 +35,7 @@ const AdminProfile = () => {
       <div className="flex gap-3">
         
         <Link to = '/profile'
-          onClick={handleSettingsClick}
+          
           className="hover:opacity-70 transition-opacity"
         >
           <CiSettings className="text-white w-6 h-6" />
