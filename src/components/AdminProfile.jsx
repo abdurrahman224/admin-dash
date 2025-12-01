@@ -2,10 +2,11 @@ import { useContext } from "react";
 import { CiSettings } from "react-icons/ci";
 import { MdOutlineLogout } from "react-icons/md";
 import { AuthContext } from "../context/AuthContext";
+import { Navigate } from "react-router-dom";
 
 const AdminProfile = () => {
-  const handleSettingsClick = () => {
-    window.location.href = "/profile";
+   const handleSettingsClick = () => {
+    Navigate("/profile"); 
   };
   const { logout } = useContext(AuthContext);
   const handleLogoutClick = () => {
