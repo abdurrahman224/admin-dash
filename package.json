@@ -4,11 +4,11 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "vite preview --host 0.0.0.0 --port 3000",
+    "start": "node init && vite preview --host 0.0.0.0 --port 3000",
     "test": "karma start --single-run",
     "test:watch": "karma start"
   },
